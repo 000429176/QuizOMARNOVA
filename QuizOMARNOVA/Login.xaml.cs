@@ -27,7 +27,8 @@ namespace QuizOMARNOVA
         {
             if (txtUsername.Text=="Omar" && txtPassword.Password=="5678")
             {
-
+                MainWindow login = (MainWindow) Window.GetWindow(this);
+                login.frameMain.NavigationService.Navigate(new Home());
             }
             else
             {
