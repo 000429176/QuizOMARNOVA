@@ -41,13 +41,15 @@ namespace QuizOMARNOVA
 
             results.Add(calendario.ToString());
 
-            
-            
             txtResults.Text = String.Join(Environment.NewLine, results);
 
             
         }
 
-      
+        private void btnLogout_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow home = (MainWindow)Window.GetWindow(this);
+            home.frameMain.NavigationService.Navigate(new Login());
+        }
     }
 }

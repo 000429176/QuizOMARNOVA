@@ -15,10 +15,11 @@
         <Label Content="Game Name" HorizontalAlignment="Left" Margin="55,57,0,0" VerticalAlignment="Top"/>
         <TextBlock x:Name="txtResults" HorizontalAlignment="Left" Height="302" Margin="561,25,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Background="White"/>
         <TextBox x:Name="txtGameName" HorizontalAlignment="Left" Height="20" Margin="154,63,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="176"/>
-        <Button Name ="btnSave" Content="Save" HorizontalAlignment="Left" Height="23" Margin="235,269,0,0" VerticalAlignment="Top" Width="64" Click="Button_Click"/>
+        <Button Name ="btnSave" Content="Save" HorizontalAlignment="Left" Height="23" Margin="141,276,0,0" VerticalAlignment="Top" Width="92" Click="Button_Click"/>
         <ListBox HorizontalAlignment="Left" Height="267" Margin="561,25,0,0" VerticalAlignment="Top" Width="220" Visibility="Hidden"/>
         <Label Content="Payment method" HorizontalAlignment="Left" Margin="43,105,0,0" VerticalAlignment="Top"/>
         <Calendar Name ="calendario" HorizontalAlignment="Left" Margin="337,86,0,0" VerticalAlignment="Top" Height="152" Width="199"/>
+        <Button Name="btnLogout" Content="Log out" HorizontalAlignment="Left" Height="23" Margin="290,276,0,0" VerticalAlignment="Top" Width="94" Click="btnLogout_Click"/>
 
     </Grid>
 </Page>
